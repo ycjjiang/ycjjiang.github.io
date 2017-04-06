@@ -163,6 +163,15 @@ section:last-child {
     color: #444;
 }
 
+.sectionContent a{
+    color: #16abff;
+    font-weight: 900;
+}
+
+.sectionContent a:hover{
+    color: grey;
+}
+
 .subDetails {
 	font-size: 0.8em;
 	margin-bottom: 5px;

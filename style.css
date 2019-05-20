@@ -35,6 +35,7 @@ p {
 .mainDetails {
 	padding: 30px 35px;
 	background: #16abff;
+    text-align: left;
 }
 
 #name h1 {

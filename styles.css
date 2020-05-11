@@ -14,6 +14,7 @@ h1, h2, h3 {
 h1 {
   color: #333;
   font-size: 190%;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -63,7 +64,7 @@ body {
   background: #CAE5E7;
   color: #333;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .resume {
@@ -91,7 +92,7 @@ header {
 header h1 {
   position: relative;
   font-family: 'Bitter', serif;
-  font-size: 250%;
+  font-size: 300%;
   background: #28627d;
   color: white;
   margin: 0;
@@ -179,16 +180,16 @@ header a:hover, header a:focus {
 
 section {
   float: left;
-  width: 70%;
+  width: 75%;
   padding: 0 30px;
 }
 section article {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 section h2 {
-  font-size: 100%;
+  font-size: 120%;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: -5px;
 }
 section h2 span {
   text-transform: none;
@@ -213,16 +214,17 @@ aside {
   float: left;
   background: whitesmoke;
   border-left: 1px solid #ccc;
-  width: 30%;
+  width: 25%;
+  height: 1200px;
   padding-left: 30px;
   padding-right: 30px;
 }
 aside article {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 aside h1 {
   font-size: 150%;
-  margin-top: 29px;
+  margin-top: 25px;
 }
 aside a {
   color: #333;

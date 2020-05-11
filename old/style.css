@@ -1,0 +1,285 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+
+#cv {
+	width: 100%;
+	max-width: 850px;
+	background: #fff;
+	margin: 0px auto;
+}
+
+.mainDetails {
+    padding: 15px 35px;
+	background: #16abff;
+}
+
+#name h1 {
+    float: left;
+	font-size: 2.5em;
+    padding-left: 5px;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+   	color: #fff;
+}
+
+#name h2 {
+    float: left;
+    text-align: left;
+	font-size: 1em;
+	margin-left: 5px;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.8em;
+	padding-right: 5px;
+    padding-top: 5px;
+}
+
+#contactDetails ul li span {
+	color: #fff;
+}
+
+#contactDetails ul li img{
+    padding-right: 5px;
+    padding-top: 10px;
+    width: 15px; 
+    height: 15px;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: #fff; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#contactDetails ul li a:hover { 
+	color: grey;
+}
+
+
+section {
+	border-top: 1.5px solid #16abff;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	float: left;
+	width: 15%;
+}
+
+.sectionContent {
+	float: right;
+	width: 80%;
+}
+
+.sectionTitle h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.4em;
+	color: #16abff;
+    font-weight: 500;
+}
+
+.sectionContent h2 {
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	margin-bottom: -2px;
+    font-weight: 400;
+}
+
+.sectionContent h2 span {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1em;
+	margin-bottom: -2px;
+    font-weight: 300;
+    color: #00a3ff;
+}
+
+.sectionContent p {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 0.8em;
+    color: #444;
+}
+
+.sectionContent a{
+    color: #16abff;
+    font-weight: 200;
+}
+
+.sectionContent a:hover{
+    color: grey;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	margin-bottom: 5px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+	#headshot {
+		display: none;
+	}
+	
+	.keySkills {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	}
+}
+
+@media all and (max-width: 601px) {
+	#cv {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 280px;
+	}
+	
+	#headshot {
+		display: none;
+	}
+	
+	#name, #contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+	}
+	
+	.sectionTitle {
+		margin-left: -2px;
+		font-size: 1.25em;
+	}
+	
+	.keySkills {
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.mainDetails {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 15px 0 0;
+	}
+	
+	#mainArea {
+		padding: 0 25px;
+	}
+
+	
+	.keySkills {
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	}
+	
+	#name h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+	}
+}
+
+@media print {
+    #cv {
+        width: 100%;
+    }
+}
+
+@keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.instaFade {
+	animation-name: reset, fade-in;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+}

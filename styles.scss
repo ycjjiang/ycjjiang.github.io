@@ -122,15 +122,15 @@ header {
     padding-right: $pad;
     float: left;
     z-index: 2;  
-    @include breakpoint(header-2rows) {
-      width: 100%;
-      padding-right: 5px;
-    }
-    @include breakpoint(header-3rows) {
-      span {
-        display: none; 
-      }      
-    }
+//    @include breakpoint(header-2rows) {
+//      width: 100%;
+//      padding-right: 5px;
+//    }
+//    @include breakpoint(header-3rows) {
+//      span {
+//        display: none; 
+//      }      
+//    }
     &:after {
       @include arrow($level1);
     }
@@ -143,13 +143,13 @@ header {
     padding-left: $pad * 2;
     padding-right: $pad * 1.6;
     height: $header-height; 
-    @include breakpoint(header-2rows) {
-      width: 50%;
-    }
-    @include breakpoint(header-3rows) {
-      width: 100%;
-      padding-left: $pad;
-    }
+//    @include breakpoint(header-2rows) {
+//      width: 50%;
+//    }
+//    @include breakpoint(header-3rows) {
+//      width: 100%;
+//      padding-left: $pad;
+//    }
     &:first-of-type {
       background: $level2;
       z-index: 1;

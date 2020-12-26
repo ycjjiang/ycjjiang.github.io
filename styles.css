@@ -150,6 +150,7 @@ header div {
   }
 }
 */
+/*
 header div:first-of-type {
   background: #2e779c;
   z-index: 1;
@@ -164,6 +165,7 @@ header div:first-of-type:after {
   right: -20px;
   top: 0;
 }
+*/
 /*
 @media (max-width: 75em) {
   header div:first-of-type {

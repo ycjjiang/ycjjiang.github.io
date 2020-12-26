@@ -75,11 +75,13 @@ body {
   margin: 0 auto 50px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2), inset 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/*
 @media (max-width: 58em) {
   .resume {
     width: 96%;
   }
 }
+*/
 
 header {
   position: relative;
@@ -206,18 +208,20 @@ section p {
 section .education p {
   margin-top: 3px;
 }
+/*
 @media (max-width: 58em) {
   section {
     width: 100%;
   }
 }
+*/
 
 .work .block {
   margin-bottom: 30px;
 }
 
 aside {
-  float: left;
+  float: right;
   background: whitesmoke;
   border-left: 1px solid #ccc;
   width: 20%;

@@ -17,17 +17,17 @@ $pad: 30px;
 $header-height: 90px;
 
 /* Media Query Breakpoint */
-@mixin breakpoint($point) {
-  @if $point == header-2rows {
-    @media (max-width : 75em) {@content;}
-  }
-  @if $point == header-3rows {
-    @media (max-width : 36em) {@content;}
-  } 
-  @if $point == thin {
-    @media (max-width : 58em) {@content;}
-  } 
-}
+//@mixin breakpoint($point) {
+//  @if $point == header-2rows {
+//    @media (max-width : 75em) {@content;}
+//  }
+//  @if $point == header-3rows {
+//    @media (max-width : 36em) {@content;}
+//  } 
+//  @if $point == thin {
+//    @media (max-width : 58em) {@content;}
+//  } 
+//}
 
 /* Header Arrow Effect */
 @mixin arrow($color) {
@@ -210,7 +210,7 @@ aside {
   float: left;
   background: whitesmoke;
   border-left: 1px solid #ccc;
-  width: 30%;
+  width: 20%;
   padding-left: $pad;
   padding-right: $pad;
   article {

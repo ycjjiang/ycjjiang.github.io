@@ -243,10 +243,11 @@ aside a {
 aside a:hover, aside a:focus {
   background: #e8e8e8;
 }
+/*
 @media (max-width: 58em) {
   aside {
     width: 100%;
     border-left: none;
     border-top: 1px solid #ccc;
   }
-}
+}*/

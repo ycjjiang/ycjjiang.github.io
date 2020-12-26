@@ -131,9 +131,9 @@ header {
 //        display: none; 
 //      }      
 //    }
-    &:after {
-      @include arrow($level1);
-    }
+//    &:after {
+//      @include arrow($level1);
+//    }
   }
   div {
     position: relative;
@@ -150,16 +150,16 @@ header {
 //      width: 100%;
 //      padding-left: $pad;
 //    }
-    &:first-of-type {
-      background: $level2;
-      z-index: 1;
-      &:after {
-        @include arrow($level2);
-      }
-      @include breakpoint(header-2rows) {
-        padding-left: $pad;  
-      }
-    }
+//    &:first-of-type {
+//      background: $level2;
+//      z-index: 1;
+//      &:after {
+//        @include arrow($level2);
+//      }
+//      @include breakpoint(header-2rows) {
+//        padding-left: $pad;  
+//      }
+//    }
   }
   a {
     color: white;

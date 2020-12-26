@@ -103,6 +103,7 @@ header h1 {
   float: left;
   z-index: 2;
 }
+/*
 @media (max-width: 75em) {
   header h1 {
     width: 100%;
@@ -114,6 +115,7 @@ header h1 {
     display: none;
   }
 }
+*/
 header h1:after {
   position: absolute;
   content: '';
@@ -133,6 +135,7 @@ header div {
   padding-right: 48px;
   height: 90px;
 }
+/*
 @media (max-width: 75em) {
   header div {
     width: 50%;
@@ -144,6 +147,7 @@ header div {
     padding-left: 30px;
   }
 }
+*/
 header div:first-of-type {
   background: #2e779c;
   z-index: 1;
@@ -158,11 +162,13 @@ header div:first-of-type:after {
   right: -20px;
   top: 0;
 }
+/*
 @media (max-width: 75em) {
   header div:first-of-type {
     padding-left: 30px;
   }
 }
+*/
 header a {
   color: white;
   padding: 0 3px;
@@ -214,8 +220,8 @@ aside {
   float: left;
   background: whitesmoke;
   border-left: 1px solid #ccc;
-  width: 25%;
-  height: 1210px;
+  width: 20%;
+  height: 100%;
   padding-left: 30px;
   padding-right: 30px;
 }

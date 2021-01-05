@@ -64,7 +64,7 @@ body {
   background: #CAE5E7;
   color: #333;
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
     width: 100%;
 }
 
@@ -90,7 +90,7 @@ header {
   width: 100%;
   overflow: hidden;
   height: 90px;
-  text-shadow: 1px 2px 3px #304a63;
+/*  text-shadow: 1px 2px 3px #304a63;*/
 }
 header h1 {
   position: relative;
@@ -133,7 +133,7 @@ header div {
   position: relative;
   color: white;
   float: left;
-  padding-top: 24px;
+  padding-top: 20px;
   padding-left: 60px;
   padding-right: 48px;
   height: 90px;

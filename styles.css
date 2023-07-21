@@ -132,7 +132,7 @@ header a:hover, header a:focus {
 }
 
 .info {
-  height: flex;
+  height: 100%;
 }
 
 section {

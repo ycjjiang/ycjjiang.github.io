@@ -131,10 +131,9 @@ header a:hover, header a:focus {
   color: greenyellow;
 }
 
-.info {
+/*.info {
   height: 100%;
-  width: 70%;
-}
+}*/
 
 section {
   float: left;

@@ -10,8 +10,8 @@
 
 page[size="A4"] {
   background: white;
-  width: 21cm;
-  height: 29.7cm;
+  width: 21.6cm;
+  height: 27.9cm;
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
@@ -64,7 +64,7 @@ body {
 .resume {
   position: relative;
   background: white;
-  height: 29.7cm;
+  height: 27.9cm;
   /*max-width: 1000px;
   margin: 0 auto 0;*/
 }

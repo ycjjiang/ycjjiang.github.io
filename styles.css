@@ -64,6 +64,7 @@ body {
 .resume {
   position: relative;
   background: white;
+  height: flex;
   /*max-width: 1000px;
   margin: 0 auto 0;*/
 }
@@ -131,7 +132,6 @@ header a:hover, header a:focus {
 }
 
 .info {
-  flex: 1;
   display: flex;
 }
 

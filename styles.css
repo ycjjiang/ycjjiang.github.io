@@ -132,7 +132,7 @@ header a:hover, header a:focus {
 }
 
 .info {
-  position: absolute;
+  height: flex;
 }
 
 section {
@@ -158,6 +158,7 @@ aside {
   width: 30%;
   padding-left: 30px;
   padding-right: 30px;
+  height: flex;
 }
 aside h1 {
   font-size: 150%;

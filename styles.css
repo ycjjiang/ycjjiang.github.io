@@ -131,7 +131,7 @@ header a:hover, header a:focus {
 }
 
 .info {
-  height: 29.7cm;
+  height: auto;
   display: flex;
 }
 

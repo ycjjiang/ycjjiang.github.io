@@ -131,7 +131,7 @@ header a:hover, header a:focus {
 }
 
 .info {
-  height: auto;
+  flex: 1;
   display: flex;
 }
 

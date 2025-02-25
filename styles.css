@@ -8,10 +8,10 @@
 /* Header Arrow Effect */
 /* Typography */
 
-page[size="A4"] {
+page/*[size="A4"]*/ {
   background: white;
   width: 21.6cm;
-  height: 27.9cm;
+  height: auto;
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;

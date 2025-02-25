@@ -64,7 +64,7 @@ body {
 .resume {
   position: relative;
   background: white;
-  height: 27.9cm;
+  height: auto;
   /*max-width: 1000px;
   margin: 0 auto 0;*/
 }

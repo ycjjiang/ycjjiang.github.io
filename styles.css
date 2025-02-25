@@ -11,7 +11,7 @@
 page/*[size="A4"]*/ {
   background: white;
   width: 21.6cm;
-  height: auto;
+  height: 27.9cm;
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
@@ -157,6 +157,7 @@ aside {
   background: whitesmoke;
   border-left: 1px solid #ccc;
   width: 35%;
+  height: auto;
   padding-left: 30px;
   padding-right: 30px;
 }
